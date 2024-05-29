@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.doors-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.logout {
+  position: absolute;
+  top: 0;
+}
+
+p {
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.btn {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 10px;
+  padding: 25px 28px;
+  background-color: rgb(32, 32, 49);
+  border: 2px solid rgb(42, 164, 219);
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgba(32, 34, 39, 0.342);
+}
+
+.logout-btn {
+  font-size: 14px;
+  border: none;
+  background: none;
+  color: white;
+  text-decoration: underline;
+}
+
+.logout-btn:hover {
+  color: black;
+}
+
+button[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+select {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+li:hover {
+  color: black;
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 10px;
+    background: linear-gradient(
+      to bottom,
+      rgba(26, 115, 179, 1) 0%,
+      rgba(20, 56, 108, 1) 100%
+    );
+  }
+
+  .welcome {
+    margin-top: 100px;
+  }
+}

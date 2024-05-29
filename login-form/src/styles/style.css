@@ -1,0 +1,96 @@
+body {
+  color: aliceblue;
+  text-align: center;
+  font-size: 1.2em;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: rgb(25, 25, 28);
+  background: linear-gradient(
+    90deg,
+    rgba(25, 25, 28, 1) 0%,
+    rgba(26, 115, 179, 1) 50%,
+    rgba(20, 56, 108, 1) 100%
+  );
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.auth-form-container,
+.login-form,
+.register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+.auth-form-container {
+  padding: 5rem;
+  background-color: rgb(43, 38, 38);
+  border: 1px solid rgb(42, 164, 219);
+  border-radius: 10px;
+  margin: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+label {
+  text-align: left;
+  padding: 0.3rem 0;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+.login-btn {
+  margin: 10px;
+  font-size: 1em;
+  border: none;
+  background-color: rgb(42, 164, 219);
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.login-btn:hover {
+  color: black;
+}
+
+.error-message {
+  font-size: 0.9em;
+  color: red;
+  margin-top: 10px;
+}
+
+.register-btn {
+  font-size: 1em;
+  border: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.register-btn {
+  background: none;
+  color: black;
+  text-decoration: underline;
+  border: none;
+}
+.register-btn:hover {
+  color: white;
+}
