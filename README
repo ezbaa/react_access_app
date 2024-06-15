@@ -1,3 +1,6 @@
+EN - This is a React app that uses Firebase for logging in and signing up. In the app you can simply add doors and give access to them.
+
+FI - Tämä on React-sovellus, joka käyttää Firebasea kirjautumiseen ja rekisteröitymiseen. Sovelluksessa voit yksinkertaisesti lisätä ja hallita omia ovia.
 
 ### Project Setup with Firebase:
 
@@ -44,6 +47,8 @@
 6. Start the project:
    - Ensure you have run `npm install firebase` in your project directory.
    - Start the Vite development server by running the command `npm run dev`.
+
+
 
 ###Projektin käyttöönotto Firebasella:
 
